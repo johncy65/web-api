@@ -1,0 +1,8 @@
+<mat-toolbar color="primary">
+    <span class="logo" routerLink="/">WEB API</span>
+    <span class="example-spacer"></span>
+    <button *ngIf="auth.isLoggedIn" (click)="auth.logout()" mat-raised-button>Logout</button>
+</mat-toolbar>
+<div class="content">
+    <ng-content></ng-content>
+</div>

@@ -1,0 +1,25 @@
+<div>
+    <h1>Profile Page</h1>
+    <mat-card>
+        <h3>Edit your profile settings</h3>
+        <div class="profile-details">
+            <div class="profile-field">
+                <div class="key">First Name</div>
+                <div class="value">{{firstName}}</div>
+            </div>
+            <div class="profile-field">
+                <div class="key">Second Name</div>
+                <div class="value">{{secondName}}</div>
+            </div>
+            <div class="profile-field">
+                <div class="key">Email</div>
+                <div class="value">{{email}}</div>
+            </div>
+        </div>
+        <div>
+            <button mat-raised-button color="primary" (click)="openDialog('profile')">Edit Profile</button>
+            <button class="m-20" mat-raised-button color="primary" (click)="openDialog('password')">Change
+                Password</button>
+        </div>
+    </mat-card>
+</div>

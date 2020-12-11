@@ -1,0 +1,9 @@
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+.content{
+  background: rgb(245, 245, 245);
+  padding: 40px 0;
+  min-height: calc(100vh - 64px);
+}
